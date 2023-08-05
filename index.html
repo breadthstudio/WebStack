@@ -52,66 +52,8 @@
 
 
 
-<body class="io-grey-mode">
+<body class="io-black-mode">
 
-    
-    <div id="loading">
-        <style>
-            .loader {
-                width: 250px;
-                height: 50px;
-                line-height: 50px;
-                text-align: center;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                font-family: helvetica, arial, sans-serif;
-                font-weight: 900;
-                color: #f1404b;
-                letter-spacing: 0.2em
-            }
-
-            .loader::before,
-            .loader::after {
-                content: "";
-                display: block;
-                width: 15px;
-                height: 15px;
-                background: #f1404b;
-                position: absolute;
-                animation: load .7s infinite alternate ease-in-out
-            }
-
-            .loader::before {
-                top: 0
-            }
-
-            .loader::after {
-                bottom: 0
-            }
-
-            @keyframes load {
-                0% {
-                    left: 0;
-                    height: 30px;
-                    width: 15px
-                }
-
-                50% {
-                    height: 8px;
-                    width: 40px
-                }
-
-                100% {
-                    left: 235px;
-                    height: 30px;
-                    width: 15px
-                }
-            }
-        </style>
-        <div class="loader">Hugo 网址导航主题</div>
-    </div>
     
     <div class="page-container">
 	
@@ -264,7 +206,7 @@
                         <ul>
                             <li id="menu-item-237"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237 sidebar-item">
-                                <a href="https://www.yuque.com/forms/share/1a1fee15-f7a9-4ee6-9dd4-b0ba9fef1871" target="_blank">
+                                <a href="" target="_blank">
                                     <i class="fas fa-file-upload icon-fw icon-lg mr-2"></i>
                                     <span>网站提交</span></a>
                             </li>
@@ -329,7 +271,7 @@
 			    </li>
 			
 			<li >
-				<a href="https://www.yuque.com/shenweiyan">
+				<a href="https://breadth.top/about">
                                     <i class="fa fa-book fa-lg mr-2"></i>
                                     <span>作者</span>
                                 </a>
@@ -5979,9 +5921,9 @@
     <div class="friendlink text-xs card">
         <div class="card-body"> 
 	    
-	    <a href="https://bioitee.com/" title="Bio &amp; IT 网址导航" target="_blank">BioIT爱好者</a>
+	    <a href="https:/zuji.netlify.app" title="digital garden" target="_blank">Obsidian数字花园</a>
 	    
-	    <a href="https://shen.bioitee.com/" title="个人博客" target="_blank">个人博客</a>
+	    <a href="https://zuji.eu.org" title="个人博客" target="_blank">Notion个人博客</a>
 	    
         </div>
     </div>
@@ -5998,19 +5940,16 @@
                     rel="search" one-link-mark="yes">
                     <i class="iconfont icon-search"></i>
                 </a>
-                <a href="https://www.yuque.com/shenweiyan" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="联系我们">
-                    <i class="mode-ico iconfont icon-qq"></i>
+                
+                 
+                <a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
+                    data-toggle="tooltip" data-placement="left" title="夜间模式">
+                    <i class="mode-ico iconfont icon-light"></i>
                 </a>
-                
-                
-		<a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
-                    data-toggle="tooltip" data-placement="left" title="日间模式">
-                    <i class="mode-ico iconfont icon-night"></i>
-                </a>
-                
+		
             </div>
             <div class="footer-inner">
-                <div class="footer-text">本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：shumlab@foxmail.com <br/>© 2021 - 2023 By <a href="https://github.com/shenweiyan/WebStack-Hugo">WebStack-Hugo</a> | <a href="https://www.bioitee.com/">Bio IT 爱好者</a> | <a href="http://beian.miit.gov.cn/">粤ICP备16023717号</a><br/></div>
+                <div class="footer-text">本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：widthwisegpt@gmail.com <br/>© 2023 - 2023 By <a href="https://github.com/breadthstudio/WebStack">WebStack</a> | <a href="https://www.breadth.top/">个人主页</a> <br/></div>
             </div>
         </footer>
     </div>
