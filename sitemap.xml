@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://widthwise.eu,irg/about/</loc>
+    <loc>https://widthwise.eu.org/about/</loc>
     <lastmod>2020-07-28T19:27:08+08:00</lastmod>
   </url><url>
-    <loc>https://widthwise.eu,irg/categories/</loc>
+    <loc>https://widthwise.eu.org/categories/</loc>
   </url><url>
-    <loc>https://widthwise.eu,irg/tags/</loc>
+    <loc>https://widthwise.eu.org/tags/</loc>
   </url><url>
-    <loc>https://widthwise.eu,irg/</loc>
+    <loc>https://widthwise.eu.org/</loc>
   </url>
 </urlset>
